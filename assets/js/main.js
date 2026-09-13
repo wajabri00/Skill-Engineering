@@ -1,3 +1,9 @@
+/*
+  ======================================================
+  Developer: Wajih Jabri
+  Copyright (c) 2026 Skill Engineering. All rights reserved.
+  ======================================================
+*/
 (function($) {
 
 	var	$window = $(window),
