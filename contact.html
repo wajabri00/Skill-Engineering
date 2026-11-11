@@ -1,272 +1,170 @@
-<!DOCTYPE HTML>
-<!-- 
+<!DOCTYPE html>
+<!--
   ======================================================
   Developer: Wajih Jabri
   Copyright (c) 2026 Skill Engineering. All rights reserved.
   ======================================================
 -->
-
-<html>
+<html lang="fr">
 	<head>
-		<title>Contact</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Contact | Skill Engineering</title>
+		<meta name="description" content="Contactez Skill Engineering pour vos projets d'ingénierie, de formation et de cybersécurité." />
+		<link rel="icon" href="logo.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="shortcut icon" href="./logo.ico" type="image/x-icon">
-		<style>
-			/* Reset */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-/* Body */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-}
-
-/* Contact Section */
-.ContactMe {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.ContactMe .gitouch {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.ContactMe .form {
-    margin-top: 20px;
-}
-
-.ContactMe .form-group {
-    margin-bottom: 15px;
-}
-
-.ContactMe input[type="text"],
-.ContactMe input[type="email"],
-.ContactMe textarea,
-.ContactMe input[type="file"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    transition: border-color 0.3s ease;
-}
-
-.ContactMe input[type="text"]:focus,
-.ContactMe input[type="email"]:focus,
-.ContactMe textarea:focus,
-.ContactMe input[type="file"]:focus {
-    border-color: #007bff;
-}
-
-.ContactMe input[type="submit"] {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.ContactMe input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-    .ContactMe {
-        padding: 15px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .ContactMe {
-        max-width: 90%;
-    }
-}
-
-		</style>
-		
 	</head>
-	<body class="no-sidebar is-preload">
+	<body class="is-preload">
 		<div id="page-wrapper">
 
-			<!-- Header Wrapper -->
+			<!-- Header -->
 				<div id="header-wrapper">
 					<div class="container">
-
-						<!-- Header -->
-							<header id="header">
-								<div class="inner">
-
-									<!-- Logo -->
-										<h1><a href="index.html" id="logo">Skill Engineering</a></h1>
-
-									<!-- Nav -->
-										<nav id="nav">
+						<header id="header">
+							<div class="inner">
+								<h1><a href="index.html" id="logo">Skill Engineering</a></h1>
+								<nav id="nav">
+									<ul>
+										<li><a href="index.html">Accueil</a></li>
+										<li>
+											<a href="#">Nos formations</a>
 											<ul>
-												<li><a href="index.html">Home</a></li>
-												<li><a href="a-propos.html">A propos</a></li>
-												<li><a href="services.html">Services</a></li>
-												<li class="current_page_item"><a href="contact.html">Contacts</a></li>
+												<li><a href="#">AMOA &amp; Business Analyst</a></li>
+												<li><a href="#">Application Software</a></li>
+												<li><a href="#">Cloud &amp; Infrastructure</a></li>
+												<li><a href="#">Cybersecurity</a></li>
+												<li><a href="#">Data Management &amp; IA</a></li>
+												<li><a href="#">Embedded Software</a></li>
+												<li><a href="#">Environment, Health &amp; Safety</a></li>
+												<li><a href="#">Green IT</a></li>
+												<li><a href="#">Manufacturing</a></li>
+												<li><a href="#">Project Management Office</a></li>
+												<li><a href="#">Quality Assurance</a></li>
+												<li><a href="#">Software Testing &amp; AQ</a></li>
+												<li><a href="#">Systems Engineering &amp; PDM</a></li>
+												<li>
+													<a href="#">Programming Languages</a>
+													<ul>
+														<li><a href="#">C, C++, C#</a></li>
+														<li><a href="#">Python</a></li>
+														<li><a href="#">MERN Full Stack</a></li>
+														<li><a href="#">Angular + Spring Boot</a></li>
+													</ul>
+												</li>
 											</ul>
-										</nav>
-
-								</div>
-							</header>
-
+										</li>
+										<li><a href="a-propos.html">À propos</a></li>
+										<li><a href="services.html">Services</a></li>
+										<li class="current_page_item"><a href="contact.html" aria-current="page">Contact</a></li>
+									</ul>
+								</nav>
+							</div>
+						</header>
 					</div>
 				</div>
 
-			<!--Contact-->
-            <section class="ContactMe">
-				<h3 class="gitouch">Contact Us</h3>
-				<form action="https://formsubmit.co/sez@skillengineering.fr" method="POST" class="form">
-					<div class="typetext">
-						<div class="col-6 col-12-mobilep">
-							<input type="text" name="name" id="name" placeholder="Name" />
-						</div>
-						<div class="typemail">
-							<input type="email" name="email" id="email" placeholder="Email" />
-						</div>
-						<div class="typetextarea">
-							<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-						</div>
-						<div class="Button">
-							<ul class="buttonsubmit">
-								<li><input type="submit" class="button alt" value="Envoyer Message" /></li>
-							</ul>
-						</div>
-					</div>
-				</form>
-			</section>
+			<!-- Main -->
+				<div id="main-wrapper">
+					<section class="contact-section">
+						<div class="container">
+							<div class="card contact-card">
+								<header class="major">
+									<h2>Contactez-nous</h2>
+								</header>
+								<p class="lead">Une question, un projet ou une demande de formation ? Écrivez-nous, nous vous répondrons rapidement.</p>
 
-			<!-- Footer Wrapper -->
-			<div id="footer-wrapper">
-				<footer id="footer" class="container">
-					<div class="row">
-						<div class="col-3 col-6-medium col-12-small">
-	
-							<!-- Links -->
-								<section>
-									<h2>Nos Services</h2>
-									<ul class="divided">
-										<li>Aeronautics</li>
-										<li>space</li>
-										<li>defencde, Security &amp; Naval</li>
-										<li>Automative</li>
-										<li>Rail &amp; Mobility</li>
-										<li>Telecoms</li>
-										<li>Energie &amp; Environnement</li>
-										<li>Science de vie et santé </li>
-										<li>Finance &amp; Assurance </li>
-										<li>Commerce et Médias</li>
-										<li>Services &amp; Gouvernement</li>
-										<li>information technologie</li>
-									</ul>
-								</section>
-	
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-	
-							<!-- Links -->
-								<section>
-									<h2>Bonus</h2>
-									<ul class="divided">
-										<li><a href="#">Clean Code </a></li>
-										<li><a href="#">Ressources + Projets</a></li>
-										<li><a href="#">Développez 18 outils en PYTHON </a></li>
-										<li><a href="#"></a></li>
-									</ul>
-								</section>
-	
-							<!-- Links -->
-								<section>
-									<h2>Important </h2>
-									<ul class="divided">
-										<li><a href="#">Every hacker is a programmer but every programmer is not a hacker</a></li>
-										<li><a href="#">Apprentissage présentielle + en ligne</a></li>
-										<li><a href="#">Sécurisez vos données + cryptography</a></li>
-										<li><a href="#">Deep + DarkWeb (guide) #BONUS</a></li>
-									</ul>
-								</section>
-	
-						</div>
-						<div class="col-6 col-12-medium imp-medium">
-	
-							<!-- About -->
-								<section>
-									<h2><strong>Skill Engineering </strong></h2>
-									<p>Hi! This is <strong>Skill Engineering</strong> <br>
-										Skill Engineering, une entreprise dédiée à fournir des services de pointe dans les domaines de la cyber-sécurité, 
-										Application software, Cloud Infrastructure, construction infrastructure, Data management and IA, Embedded System,
-										 Software Testing, Project Management, Green IT and AMOA and Business Analyst  de la réponse aux appels d'offres et de la prestation intellectuelle en ingénierie.
-									</p>
-									<a href="#" class="button alt icon solid fa-arrow-circle-right">Learn More</a>
-								</section>
-	
-							<!-- Contact -->
-								<section>
-									<h2>Cordonnées</h2>
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<dl class="contact">
-													<dt>WWW</dt>
-													<dd><a href="#">www.skillengineering.fr</a></dd>
-													<dt>Email</dt>
-													<dd><a href="mailto:sez@skillengineering.fr">Contactez-nous</a></dd>
-												</dl>
-											</div>
-											<div class="col-6 col-12-small">
-												<dl class="contact">
-													<dt>Address</dt>
-													<dd>
-														229 rue Saint Honoré,<br>
-														75001, Paris, France<br />
-													</dd>
-													<dt>Phone</dt>
-													<dd><a href="tel:+33666175007"></a>+33666175007</dd>
-												</dl>
-											</div>
-										</div>
+								<form action="https://formsubmit.co/sez@skillengineering.fr" method="POST">
+									<input type="hidden" name="_subject" value="Nouveau message depuis le site Skill Engineering" />
+
+									<div class="field">
+										<label for="name">Nom</label>
+										<input type="text" name="name" id="name" autocomplete="name" required />
 									</div>
-								</section>
-	
-						</div>
-						<div class="col-12">
-							<div id="copyright">
-								<ul class="menu">
-									<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="https://www.linkedin.com/in/wajih-jabri-053499273/">Jabri Wajih</a></li>
-								</ul>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" autocomplete="email" required />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6" required></textarea>
+									</div>
+									<input type="submit" class="button" value="Envoyer le message" />
+								</form>
 							</div>
+						</div>
+					</section>
+				</div>
+
+			<!-- Footer -->
+				<footer id="site-footer">
+					<div class="container">
+						<div class="footer-grid">
+							<section class="footer-brand">
+								<a href="index.html" class="footer-logo">Skill Engineering</a>
+								<p>Votre partenaire expert en ingénierie, formation, cybersécurité, réponse aux appels d'offres
+								et prestation intellectuelle en ingénierie.</p>
+								<a href="a-propos.html" class="button icon solid fa-arrow-circle-right">En savoir plus</a>
+							</section>
+							<section>
+								<h2>Nos secteurs</h2>
+								<ul class="footer-list two-col">
+									<li>Aeronautics</li>
+									<li>Space</li>
+									<li>Defence, Security &amp; Naval</li>
+									<li>Automotive</li>
+									<li>Rail &amp; Mobility</li>
+									<li>Telecoms</li>
+									<li>Énergie &amp; Environnement</li>
+									<li>Sciences de la vie &amp; Santé</li>
+									<li>Finance &amp; Assurance</li>
+									<li>Commerce &amp; Médias</li>
+									<li>Services &amp; Gouvernement</li>
+									<li>Information Technology</li>
+								</ul>
+							</section>
+							<section>
+								<h2>Ressources</h2>
+								<ul class="footer-list">
+									<li><a href="#">Clean Code</a></li>
+									<li><a href="#">Ressources + Projets</a></li>
+									<li><a href="#">Développez 18 outils en Python</a></li>
+									<li><a href="#">Apprentissage en présentiel + en ligne</a></li>
+									<li><a href="#">Sécurisez vos données + cryptographie</a></li>
+									<li><a href="#">Deep + Dark Web (guide)</a></li>
+								</ul>
+							</section>
+							<section>
+								<h2>Coordonnées</h2>
+								<ul class="footer-contact">
+									<li><span class="icon solid fa-map-marker-alt" aria-hidden="true"></span><span>229 rue Saint-Honoré<br />75001 Paris, France</span></li>
+									<li><span class="icon solid fa-phone" aria-hidden="true"></span><a href="tel:+33666175007">+33 6 66 17 50 07</a></li>
+									<li><span class="icon solid fa-envelope" aria-hidden="true"></span><a href="mailto:sez@skillengineering.fr">sez@skillengineering.fr</a></li>
+									<li><span class="icon solid fa-globe" aria-hidden="true"></span><a href="https://www.skillengineering.fr" target="_blank" rel="noopener">www.skillengineering.fr</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="footer-bottom">
+							<p>&copy; 2026 Skill Engineering. Tous droits réservés.</p>
+							<ul class="footer-nav">
+								<li><a href="index.html">Accueil</a></li>
+								<li><a href="a-propos.html">À propos</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+							<p>Design : <a href="https://www.wajihjabri.com" target="_blank" rel="noopener">Wajih Jabri</a></p>
 						</div>
 					</div>
 				</footer>
-			</div>
-	
-	</div>
-	
-	<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.dropotron.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-	
-		</body>
-	</html>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
